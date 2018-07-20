@@ -1,0 +1,19 @@
+{
+  "notes": [
+    {
+      "name": "VW",
+      "color": "#C4AFA9",
+      "id": 1
+    },
+    {
+      "name": "Tuesday",
+      "color": "#BFC9BB",
+      "id": 2
+    },
+    {
+      "name": "Friday",
+      "color": "#BDA9C4",
+      "id": 3
+    }
+  ]
+}

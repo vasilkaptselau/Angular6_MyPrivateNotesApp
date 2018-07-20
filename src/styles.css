@@ -1,0 +1,30 @@
+body {
+  margin-top: 10rem;
+  background: url("../ipad.png") center -15em no-repeat, url("../bg.png") no-repeat center top;
+  background-size: 75rem, cover;
+  height: 100vh;
+}
+h3 {
+  color: #fff;
+}
+.btn {
+  margin-top: 1em;
+}
+.btn-xs {
+  margin-top: 0em;
+  background: linear-gradient(277deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+.list-group-item>.badge {
+  float: left;
+  opacity: 0.5;
+}
+badge {
+  padding: 3px 3px;
+}
+.delete {
+  background: linear-gradient(87deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+}
+
+

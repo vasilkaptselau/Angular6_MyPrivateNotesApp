@@ -1,0 +1,19 @@
+<div class="col-xs-10 col-lg-4 col-xs-offset-1 col-lg-offset-4">
+  <h3 class="text-uppercase text-center">My Private Notes</h3>
+  <input placeholder="please, type your notes to add!" type="text" class="form-control" [(ngModel)]="notesName">
+  <button class="btn btn-success text-uppercase" (click)="addNote()" [disabled]="notesName === '' || notesName == null">Add</button>
+  <button class="btn btn-primary text-uppercase pull-right" (click)="loadNotes()" >your notes</button>
+  <!--<button class="btn btn-danger text-uppercase pull-right">Delete</button>-->
+  <hr>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let note of notes"  [ngStyle]="{background: note.color, color: 'black'}">
+
+      <span class="badge">
+      {{note.id}}
+      </span>
+      {{note.name}}
+      <button class="btn btn-xs btn-info pull-right" (click)="newColor(note)">color</button>
+      <button class="btn btn-xs btn-info pull-right delete" (click)="deleteNote(note)">delete</button>
+    </li>
+  </ul>
+</div>
