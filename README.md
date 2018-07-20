@@ -1,6 +1,6 @@
 # Angular 6 My Private Notes App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+This project was generated with Angular CLI version 6.0.5.
 
 ## Development server
 
